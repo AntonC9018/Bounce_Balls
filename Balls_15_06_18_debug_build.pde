@@ -164,7 +164,7 @@ void showTrace() {
   fill(255);
   // number of pixels for the cursor to pass to redraw the path
   float s = 0.5;
-  // do not recalculate the path unless X seconds have ellapsed
+  // do not recalculate the path unless X seconds have elapsed
   int f = frameCount % 2;// <-X
 
   if ((a != null) && (a.x < mouseX + s && a.x > mouseX - s && 
